@@ -1,0 +1,40 @@
+.bg-header {
+    background-color: rgba(90, 158, 218, 98%);
+}
+.navbar {
+    font-size: 1.75rem;
+    font-family: 'Inter', sans-serif;
+
+}
+body {
+    font-family: 'Inter', sans-serif;
+  
+}
+.body {
+
+    background-image: url(imagenes_videos/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem; 
+    color: aliceblue;
+   
+ 
+}
+.imagen1{
+    
+   width: auto;
+    
+}
+
+.nestor{
+   
+    width: 60%;
+
+}
+.nombre {
+   
+    margin-top: 40px;
+    background-color: rgba(71, 75, 82, 40%);
+}
