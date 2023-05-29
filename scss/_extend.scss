@@ -1,0 +1,28 @@
+%letras-default {
+     font-family: 'Inter', sans-serif;
+     font-size: 1.25rem;
+}
+%titulos {
+    font-size: 1.75rem;
+    font-family: 'Inter', sans-serif;
+}
+$color-titulo: rgb(90, 158, 218);
+$color-titulo2: black;
+%imagenes-html {
+        width: 100%;
+        max-height: 800px; 
+        overflow: hidden;
+}
+%titulos-grandes {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+%imagenes-redes-flex {
+    display: flex;
+    justify-content: center;
+}
+%imagenes-redes {
+    width: 50%;
+    height: auto;
+}
