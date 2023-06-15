@@ -33,12 +33,10 @@ header .nav-link:hover {
 header .bg-header {
   background-color: rgba(90, 158, 218, 0.98);
 }
-body .titulo-negro {
-  color: black;
-  text-shadow: -0.75px -0.75px white, 0.75px -0.75px white, -0.75px 0.75px white, 0.75px 0.75px white;
-}
-body .titulo {
-  text-align: center;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 body .social-button {
   display: flex;
@@ -54,36 +52,40 @@ body .social-button {
 body .social-button:hover {
   transform: scale(1.1);
 }
-body .titulos {
-  color: rgb(90, 158, 218);
-}
-body .sabon {
-  width: 60%;
-}
 body .nombre {
   margin-top: 40px;
   background-color: rgba(71, 75, 82, 0.4);
 }
-body .table {
-  width: 100%;
-  border-collapse: collapse;
+body .sabon {
+  width: 60%;
 }
-body .table th, body .table td {
-  border: 1px solid #ccc;
-  padding: 10px;
+body .titulo {
   text-align: center;
 }
-body .table th {
+body .titulo-negro {
+  color: black;
+  text-shadow: -0.75px -0.75px white, 0.75px -0.75px white, -0.75px 0.75px white, 0.75px 0.75px white;
+}
+body .titulos {
+  color: rgb(90, 158, 218);
+}
+body table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+body th, body td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+body th {
   background-color: #f2f2f2;
 }
-body .table td {
-  background-color: #fff;
-}
-body .table tr:nth-child(even) td {
-  background-color: #f9f9f9;
-}
-body .table .fila {
-  font-weight: bold;
+@media screen and (max-width: 600px) {
+  body table, body th, body td {
+    font-size: 12px;
+  }
 }
 
 .body {
@@ -96,7 +98,8 @@ body .table .fila {
 
 footer {
   background-color: rgba(51, 48, 48, 0.9);
-  padding: 20px 0;
+  padding: 10px 0;
+  margin-top: auto;
 }
 footer .contenedor {
   max-width: 1200px;
